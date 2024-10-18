@@ -20,7 +20,7 @@ jobs:
           name: packed-solution
       - uses: microsoft/powerplatform-actions/import-solution@v1
         with:
-          environment-url: <YOUR TRIAL ENVIRONMENT URL HERE>
+          environment-url: 7d087bfc-55cb-ea1e-9c6e-2610adfea30a
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
           solution-file: contoso_university_core_managed.zip
