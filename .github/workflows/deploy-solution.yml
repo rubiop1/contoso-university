@@ -13,6 +13,7 @@ jobs:
     runs-on: windows-latest
     environment: production
     steps:
+      - uses: microsoft/powerplatform-actions/actions-install@v1
       - uses: dawidd6/action-download-artifact@v2
         with:
           workflow: pack-solution.yml
